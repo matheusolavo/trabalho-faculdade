@@ -1,0 +1,365 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #660310ec;
+    color: #333;
+}
+
+/* CABEÇALHO*/
+header{
+    background-image: url('imagem/WhatsApp Image 2025-02-27 at 00.26.32.jpeg'); /* Caminho da imagem */
+    background-size: 1350px 500px; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Alinha a imagem ao centro da tela */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    color: white;
+    padding: 0%;
+    text-align: center;
+    width: 1343px;
+    height: 400px;
+}
+
+/* Configurar foto de perfil */
+.logo a{
+   text-shadow: 2px 2px 4px #000000;
+   font-family: Georgia, 'Times New Roman', Times, serif; 
+   color: #c75102; 
+   text-decoration: none;
+   transition: color 0.3s ease;
+   font-size: 35px;
+   position: relative;
+   top: 25px;
+   right: 550px;
+   
+}
+
+.logo a:hover{
+   color: #7c3201;
+}
+
+/*Configurar Barra de Pesquisa */
+.menu {
+    list-style-type: none; /* Remove as bolinhas */
+    padding: 0; /* Remove o padding */
+    display: flex; /* Alinha os itens na horizontal */
+    
+  }
+  
+  .menu li {
+    margin-right: 200px; /* Dá espaçamento entre os itens */
+  }
+  
+  .menu li:last-child {
+    margin-right: 25px; /* Remove o espaço após o último item */
+  }
+  
+  /* Estilizando os links */
+  .menu a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #f4f4f4; /* Cor do texto (preto ou cinza escuro) */
+    font-family: 'Times New Roman', Times, serif; /* Definindo a fonte */
+    font-size: 25px; /* Tamanho da fonte */
+    background-color: #222;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #c75102, #660310ec) 1;
+    box-shadow: 1px 1px 20px rgba(99, 4, 4, 0.808);
+    padding: 05px 50px; /* Espaçamento interno do link */
+    transition: color 0.3s ease; /* Transição suave para a cor no hover */
+    position: relative;
+    top: 300px;
+    left: 200px;
+    
+
+  }
+  .menu button:hover
+  {
+   background-color: #7c3201;
+  }
+  
+  /* Estilo do link ao passar o mouse */
+  .menu a:hover {
+    background-color: #660310ec;
+    color: rgb(255, 81, 0); /* Altera a cor para azul quando passar o mouse */
+  }
+
+section
+{ 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+color: #f4f4f4;  
+margin: 20px;
+padding: 20px;
+background: #222;
+border-radius: 10px;
+box-shadow: 0px 0px 10px #c75102(0, 0, 0, 0.5);
+}
+
+section h1
+{
+ text-shadow: 1px 1px #000000; 
+ color: #c75102;
+ font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+
+/*BEBIDAS*/
+
+/* Categorias */
+.cardapio {
+  text-align: left;
+  padding: 30px;
+  background-color: white;
+  width: 80%;
+  margin: 50px auto; 
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Categorias */
+.categoria {
+  margin: 20px 0; 
+}
+
+.categoria h3 {
+  color: #ff6347;
+  border-bottom: 2px solid #ff6347;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Itens do cardápio */
+.item {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%; 
+  margin-bottom: 20px; 
+  text-align: left;
+}
+
+.item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.item .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.item .info h4 {
+  margin: 0;
+  color: #333;
+}
+
+.item .info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.item .info span {
+  font-weight: bold;
+  color: #ff6347;
+}
+
+/*DOCES*/
+
+/* Categorias */
+.cardapio {
+  text-align: left;
+  padding: 30px;
+  background-color: white;
+  width: 80%;
+  margin: 50px auto; 
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Categorias */
+.categoria {
+  margin: 20px 0; 
+}
+
+.categoria h3 {
+  color: #ff6347;
+  border-bottom: 2px solid #ff6347;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Itens do cardápio */
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%; 
+  margin-bottom: 20px; 
+  text-align: left;
+}
+
+.item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.item .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.item .info h4 {
+  margin: 0;
+  color: #333;
+}
+
+.item .info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.item .info span {
+  font-weight: bold;
+  color: #ff6347;
+}
+
+/*SALGADOS*/
+
+/* Categorias */
+.cardapio {
+  text-align: left;
+  padding: 30px;
+  background-color: white;
+  width: 80%;
+  margin: 50px auto; 
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Categorias */
+.categoria {
+  margin: 20px 0; 
+}
+
+.categoria h3 {
+  color: #ff6347;
+  border-bottom: 2px solid #ff6347;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Itens do cardápio */
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%; 
+  margin-bottom: 20px; 
+  text-align: left;
+}
+
+.item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.item .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.item .info h4 {
+  margin: 0;
+  color: #333;
+}
+
+.item .info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.item .info span {
+  font-weight: bold;
+  color: #ff6347;
+}
+
+footer {
+  background-color: #222; /* Cor de fundo escura */
+  color: #fff; /* Cor do texto */
+  padding: 20px 0; /* Espaçamento interno */
+  font-family: Arial, sans-serif; /* Fonte do texto */
+}
+
+/* Container principal */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+
+/* Estilo para cada bloco de informações */
+.footer-info {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+
+.footer-info strong {
+  font-weight: bold;
+  color: #f0f0f0; /* Cor das palavras em negrito */
+}
+
+/* Estilo do rodapé inferior */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #bbb;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-info {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
